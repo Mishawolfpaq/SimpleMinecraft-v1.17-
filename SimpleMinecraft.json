@@ -1,0 +1,98 @@
+{
+  "game": {
+    "name": "SimpleMinecraft",
+    "version": "1.17.1"
+  },
+  "world": {
+    "dimensions": {
+      "width": 16,
+      "height": 8,
+      "depth": 16
+    },
+    "blocks": [
+      {
+        "type": "grass",
+        "position": [0, 0, 0]
+      },
+      {
+        "type": "dirt",
+        "position": [0, 1, 0]
+      },
+      {
+        "type": "stone",
+        "position": [0, 2, 0]
+      },
+      {
+        "type": "wood",
+        "position": [5, 1, 5]
+      },
+      {
+        "type": "leaves",
+        "position": [5, 2, 5]
+      }
+    ]
+  },
+  "player": {
+    "name": "Steve",
+    "inventory": [
+      {
+        "item": "wood",
+        "quantity": 10
+      },
+      {
+        "item": "stone",
+        "quantity": 5
+      }
+    ],
+    "position": [8, 1, 8]
+  },
+  "blockTypes": [
+    {
+      "name": "grass",
+      "properties": {
+        "breakable": true,
+        "texture": "grass_texture.png"
+      }
+    },
+    {
+      "name": "dirt",
+      "properties": {
+        "breakable": true,
+        "texture": "dirt_texture.png"
+      }
+    },
+    {
+      "name": "stone",
+      "properties": {
+        "breakable": true,
+        "texture": "stone_texture.png"
+      }
+    },
+    {
+      "name": "wood",
+      "properties": {
+        "breakable": true,
+        "texture": "wood_texture.png"
+      }
+    },
+    {
+      "name": "leaves",
+      "properties": {
+        "breakable": true,
+        "texture": "leaves_texture.png"
+      }
+    }
+  ],
+  "jarFiles": [
+    {
+      "url": "",
+      "version": "1.17.1",
+      "save_as": "SimpleMinecraft.jar"
+    },
+    {
+      "url": "https://www.mediafire.com/file/5ozc3fukvays5s6/1.17.1.jar/file",
+      "version": "1.17.1",
+      "save_as": "SimpleMinecraft.jar"
+    }
+  ]
+}
